@@ -26,7 +26,7 @@
 ### 获取其他插件的下载
 1. 方法一：这里使用的是Vundle插件，可具体参考Vundle的用法。
 2. 方法二：若是Vundle插件解决不了咱们的问题，咱们就切换到.vim/bundle目录下，获取咱们的插件，放置在此目录下。（使用.vim文件或者直接clone远程仓库都是可以的）。
-PS:安装完插件之后，咱们使用的pathogen会自动加载插件的，之后重启vim就好。
+3. PS:安装完插件之后，咱们使用的pathogen会自动加载插件的，之后重启vim就好。
 
 ## 插件介绍
 ### Vundle
@@ -41,8 +41,8 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 ```
 4. 使用方法：常用的操作介绍如下：
-+ **:PluginList**查看安装的插件;
-+ **:PluginInstall ctrlp.vim** 安装ctrlp插件
+   + **:PluginList**查看安装的插件;
+   + **:PluginInstall ctrlp.vim** 安装ctrlp插件
 
 ###pathogen
 1. 在线地址：[pathogen](http://github.com/tpope/vim-pathogen/)
