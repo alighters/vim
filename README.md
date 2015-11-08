@@ -18,7 +18,7 @@
 我采用的方式是：通过brewcask来安装，执行命令：brew cask install macvim. (brewcask工具不知道的，可具体查看[Mac设置指南](https://github.com/macdao/ocds-guide-to-setting-up-mac))
 
 ### 远程Vundle的添加
-1. 使用命令** cd ~/.vim/bundle/Vundle.vim **目录下，
+1. 使用命令cd ~/.vim/bundle/Vundle.vim目录下，
 2. 执行git init 初始化当前仓库
 3. 使用git add remote origin git@github.com:VundleVim/Vundle.vim.git，添加远程库的链接。
 4. 之后就可以执行git pull，获取Vundle的最新更新。
