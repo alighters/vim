@@ -16,13 +16,17 @@
 ## 安装配置
 ### macvim的安装
 我采用的方式是：通过brewcask来安装，执行命令：brew cask install macvim. (brewcask工具不知道的，可具体查看[Mac设置指南](https://github.com/macdao/ocds-guide-to-setting-up-mac))
+
 ### 远程Vundle的添加
 1. 使用命令** cd ~/.vim/bundle/Vundle.vim **目录下，
 2. 执行git init 初始化当前仓库
 3. 使用git add remote origin git@github.com:VundleVim/Vundle.vim.git，添加远程库的链接。
 4. 之后就可以执行git pull，获取Vundle的最新更新。
+
 ### 获取其他插件的下载
-这里使用的是Vundle插件，可具体参考Vundle的用法。
+1. 方法一：这里使用的是Vundle插件，可具体参考Vundle的用法。
+2. 方法二：若是Vundle插件解决不了咱们的问题，咱们就切换到.vim/bundle目录下，获取咱们的插件，放置在此目录下。（使用.vim文件或者直接clone远程仓库都是可以的）
+安装完插件之后，咱们使用的pathogen会自动加载插件的，之后重启vim就好。
 
 ## 插件介绍
 ### Vundle
