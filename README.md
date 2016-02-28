@@ -53,3 +53,6 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 ```
+### vim-markdown
+1. 在线地址：[vim-markdown](https://github.com/plasticboy/vim-markdown)
+2. 主要作用：针对markdown的语法进行高亮设置。
